@@ -9,5 +9,5 @@ module.exports = {
       Rampart: ['Rampart One', 'Cursive']
     },
   },
-  plugins: [],
-}
+  plugins: [require('tailwindcss-motion')], 
+};
